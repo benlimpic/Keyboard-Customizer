@@ -1,0 +1,338 @@
+{
+    "housing" : [ 
+        {
+        
+            "id" : 1,
+            "color" : "blue",
+            "image" : "blue.src"
+        },
+        {
+        
+            "id" : 2,
+            "color" : "red",
+            "image" : "red.src"
+        },
+        {
+       
+            "id" : 3,
+            "color" : "green",
+            "image" : "green.src"
+        },
+        {
+            "id" : 4,
+            "color" : "tan",
+            "image" : "tan.src"
+        },
+        {
+            "id" : 5,
+            "color" : "orange",
+            "image" : "orange.src"
+        },
+        {
+            "id" : 6,
+            "color" : "purple",
+            "image" : "purple.src"
+        },
+        {
+        
+            "id" : 7,
+            "color" : "teal",
+            "image" : "teal.src"
+        },
+        {
+        
+            "id" : 8,
+            "color" : "darkRed",
+            "image" : "darkRed.src"
+        },
+        {
+       
+            "id" : 9,
+            "color" : "darkGreen",
+            "image" : "darkGreen.src"
+        },
+        {
+            "id" : 10,
+            "color" : "tan",
+            "image" : "tan.src"
+        },
+        {
+            "id" : 11,
+            "color" : "darkBlue",
+            "image" : "darkBlue.src"
+        },
+        {
+            "id" : 12,
+            "color" : "skyBlue",
+            "image" : "skyBlue.src"
+        },   
+        {
+            "id" : 13,
+            "color" : "crimson",
+            "image" : "crimson.src"
+        },   
+        {
+            "id" : 14,
+            "color" : "brown",
+            "image" : "brown.src"
+        },    
+        {
+            "id" : 15,
+            "color" : "white",
+            "image" : "white.src"
+        }              
+    ],
+
+
+    "actionCaps" : [ 
+        {
+        
+            "id" : 1,
+            "color" : "blue",
+            "image" : "blue.src"
+        },
+        {
+        
+            "id" : 2,
+            "color" : "red",
+            "image" : "red.src"
+        },
+        {
+       
+            "id" : 3,
+            "color" : "green",
+            "image" : "green.src"
+        },
+        {
+            "id" : 4,
+            "color" : "tan",
+            "image" : "tan.src"
+        },
+        {
+            "id" : 5,
+            "color" : "orange",
+            "image" : "orange.src"
+        },
+        {
+            "id" : 6,
+            "color" : "purple",
+            "image" : "purple.src"
+        },
+        {
+        
+            "id" : 7,
+            "color" : "teal",
+            "image" : "teal.src"
+        },
+        {
+        
+            "id" : 8,
+            "color" : "darkRed",
+            "image" : "darkRed.src"
+        },
+        {
+       
+            "id" : 9,
+            "color" : "darkGreen",
+            "image" : "darkGreen.src"
+        },
+        {
+            "id" : 10,
+            "color" : "tan",
+            "image" : "tan.src"
+        },
+        {
+            "id" : 11,
+            "color" : "darkBlue",
+            "image" : "darkBlue.src"
+        },
+        {
+            "id" : 12,
+            "color" : "skyBlue",
+            "image" : "skyBlue.src"
+        },   
+        {
+            "id" : 13,
+            "color" : "crimson",
+            "image" : "crimson.src"
+        },   
+        {
+            "id" : 14,
+            "color" : "brown",
+            "image" : "brown.src"
+        },    
+        {
+            "id" : 15,
+            "color" : "white",
+            "image" : "white.src"
+        }   
+    ],
+
+    "highlightCaps" : [ 
+        {
+        
+            "id" : 1,
+            "color" : "blue",
+            "image" : "blue.src"
+        },
+        {
+        
+            "id" : 2,
+            "color" : "red",
+            "image" : "red.src"
+        },
+        {
+       
+            "id" : 3,
+            "color" : "green",
+            "image" : "green.src"
+        },
+        {
+            "id" : 4,
+            "color" : "tan",
+            "image" : "tan.src"
+        },
+        {
+            "id" : 5,
+            "color" : "orange",
+            "image" : "orange.src"
+        },
+        {
+            "id" : 6,
+            "color" : "purple",
+            "image" : "purple.src"
+        },
+        {
+        
+            "id" : 7,
+            "color" : "teal",
+            "image" : "teal.src"
+        },
+        {
+        
+            "id" : 8,
+            "color" : "darkRed",
+            "image" : "darkRed.src"
+        },
+        {
+       
+            "id" : 9,
+            "color" : "darkGreen",
+            "image" : "darkGreen.src"
+        },
+        {
+            "id" : 10,
+            "color" : "tan",
+            "image" : "tan.src"
+        },
+        {
+            "id" : 11,
+            "color" : "darkBlue",
+            "image" : "darkBlue.src"
+        },
+        {
+            "id" : 12,
+            "color" : "skyBlue",
+            "image" : "skyBlue.src"
+        },   
+        {
+            "id" : 13,
+            "color" : "crimson",
+            "image" : "crimson.src"
+        },   
+        {
+            "id" : 14,
+            "color" : "brown",
+            "image" : "brown.src"
+        },    
+        {
+            "id" : 15,
+            "color" : "white",
+            "image" : "white.src"
+        }   
+    ],
+
+    "generalCaps" : [ 
+        {
+        
+            "id" : 1,
+            "color" : "blue",
+            "image" : "blue.src"
+        },
+        {
+        
+            "id" : 2,
+            "color" : "red",
+            "image" : "red.src"
+        },
+        {
+       
+            "id" : 3,
+            "color" : "green",
+            "image" : "green.src"
+        },
+        {
+            "id" : 4,
+            "color" : "tan",
+            "image" : "tan.src"
+        },
+        {
+            "id" : 5,
+            "color" : "orange",
+            "image" : "orange.src"
+        },
+        {
+            "id" : 6,
+            "color" : "purple",
+            "image" : "purple.src"
+        },
+        {
+        
+            "id" : 7,
+            "color" : "teal",
+            "image" : "teal.src"
+        },
+        {
+        
+            "id" : 8,
+            "color" : "darkRed",
+            "image" : "darkRed.src"
+        },
+        {
+       
+            "id" : 9,
+            "color" : "darkGreen",
+            "image" : "darkGreen.src"
+        },
+        {
+            "id" : 10,
+            "color" : "tan",
+            "image" : "tan.src"
+        },
+        {
+            "id" : 11,
+            "color" : "darkBlue",
+            "image" : "darkBlue.src"
+        },
+        {
+            "id" : 12,
+            "color" : "skyBlue",
+            "image" : "skyBlue.src"
+        },   
+        {
+            "id" : 13,
+            "color" : "crimson",
+            "image" : "crimson.src"
+        },   
+        {
+            "id" : 14,
+            "color" : "brown",
+            "image" : "brown.src"
+        },    
+        {
+            "id" : 15,
+            "color" : "white",
+            "image" : "white.src"
+        }   
+    ]
+}
