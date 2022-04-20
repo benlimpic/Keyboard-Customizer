@@ -4,83 +4,66 @@
         
             "id" : 1,
             "color" : "blue",
-            "image" : "blue.src"
+            "image" : "https://i.imgur.com/5DTSsty.png"
         },
         {
         
             "id" : 2,
             "color" : "red",
-            "image" : "red.src"
+            "image" : "https://i.imgur.com/z9GnFkQ.png"
+            
         },
         {
        
             "id" : 3,
-            "color" : "green",
-            "image" : "green.src"
+            "color" : "forest",
+            "image" : "https://i.imgur.com/sDQLSKJ.png"
+            
         },
         {
             "id" : 4,
-            "color" : "tan",
-            "image" : "tan.src"
+            "color" : "lightblue",
+            "image" : "https://i.imgur.com/4NiUFHz.png"
+            
         },
         {
             "id" : 5,
-            "color" : "orange",
-            "image" : "orange.src"
+            "color" : "lime",
+            "image" : "https://i.imgur.com/61A1Y9e.png"
+            
         },
         {
             "id" : 6,
-            "color" : "purple",
-            "image" : "purple.src"
+            "color" : "mint",
+            "image" : "https://i.imgur.com/HVRyPs3.png"
+            
         },
         {
         
             "id" : 7,
-            "color" : "teal",
-            "image" : "teal.src"
+            "color" : "orange",
+            "image" : "https://i.imgur.com/SrYiXMA.png"
         },
         {
         
             "id" : 8,
-            "color" : "darkRed",
-            "image" : "darkRed.src"
+            "color" : "pink",
+            "image" : "https://i.imgur.com/h1Ob4cy.png"
+            
         },
         {
        
             "id" : 9,
-            "color" : "darkGreen",
-            "image" : "darkGreen.src"
+            "color" : "Yellow",
+            "image" : "https://i.imgur.com/L9gUZak.png"
+        
+            
         },
         {
             "id" : 10,
-            "color" : "tan",
-            "image" : "tan.src"
-        },
-        {
-            "id" : 11,
-            "color" : "darkBlue",
-            "image" : "darkBlue.src"
-        },
-        {
-            "id" : 12,
-            "color" : "skyBlue",
-            "image" : "skyBlue.src"
-        },   
-        {
-            "id" : 13,
-            "color" : "crimson",
-            "image" : "crimson.src"
-        },   
-        {
-            "id" : 14,
-            "color" : "brown",
-            "image" : "brown.src"
-        },    
-        {
-            "id" : 15,
             "color" : "white",
-            "image" : "white.src"
-        }              
+            "image" : "https://i.imgur.com/Ow9hmn2.png"
+        }
     ],
 
 
@@ -89,83 +72,62 @@
         
             "id" : 1,
             "color" : "blue",
-            "image" : "blue.src"
+            "image" : "https://i.imgur.com/UgbZztE.png"
         },
         {
         
             "id" : 2,
             "color" : "red",
-            "image" : "red.src"
+            "image" : "https://i.imgur.com/fdDyn94.png"
+            
         },
         {
        
             "id" : 3,
-            "color" : "green",
-            "image" : "green.src"
+            "color" : "forest",
+            "image" : "https://i.imgur.com/nOdg9uj.png"
+            
         },
         {
             "id" : 4,
-            "color" : "tan",
-            "image" : "tan.src"
+            "color" : "lightBlue",
+            "image" : "https://i.imgur.com/MA3fK3E.png"
+            
         },
         {
             "id" : 5,
-            "color" : "orange",
-            "image" : "orange.src"
+            "color" : "lime",
+            "image" : "https://i.imgur.com/eJWdD6M.png"
         },
         {
             "id" : 6,
-            "color" : "purple",
-            "image" : "purple.src"
+            "color" : "mint",
+            "image" : "https://i.imgur.com/ckEF0wQ.png"
         },
         {
         
             "id" : 7,
-            "color" : "teal",
-            "image" : "teal.src"
+            "color" : "orange",
+            "image" : "https://i.imgur.com/64Wubmb.png"
         },
         {
         
             "id" : 8,
-            "color" : "darkRed",
-            "image" : "darkRed.src"
+            "color" : "pink",
+            "image" : "https://i.imgur.com/wbUIyfl.png"
         },
         {
        
             "id" : 9,
-            "color" : "darkGreen",
-            "image" : "darkGreen.src"
+            "color" : "yellow",
+            "image" : "https://i.imgur.com/yC9wmmo.png"
         },
         {
             "id" : 10,
-            "color" : "tan",
-            "image" : "tan.src"
-        },
-        {
-            "id" : 11,
-            "color" : "darkBlue",
-            "image" : "darkBlue.src"
-        },
-        {
-            "id" : 12,
-            "color" : "skyBlue",
-            "image" : "skyBlue.src"
-        },   
-        {
-            "id" : 13,
-            "color" : "crimson",
-            "image" : "crimson.src"
-        },   
-        {
-            "id" : 14,
-            "color" : "brown",
-            "image" : "brown.src"
-        },    
-        {
-            "id" : 15,
-            "color" : "white",
-            "image" : "white.src"
-        }   
+            "color" : "White",
+            "image" : "https://i.imgur.com/syiJdOA.png"
+        }
+    
     ],
 
     "highlightCaps" : [ 
@@ -173,83 +135,68 @@
         
             "id" : 1,
             "color" : "blue",
-            "image" : "blue.src"
+            "image" : "https://i.imgur.com/s5vnpm4.png"
         },
         {
         
             "id" : 2,
             "color" : "red",
-            "image" : "red.src"
+            "image" : "https://i.imgur.com/SjxX0aU.png"
+            
         },
         {
        
             "id" : 3,
-            "color" : "green",
-            "image" : "green.src"
+            "color" : "forest",
+            "image" : "https://i.imgur.com/ez96l9y.png"
+            
+            
         },
         {
             "id" : 4,
-            "color" : "tan",
-            "image" : "tan.src"
+            "color" : "lightBlue",
+            "image" : "https://i.imgur.com/pPlTtsa.png"
+            
         },
         {
             "id" : 5,
-            "color" : "orange",
-            "image" : "orange.src"
+            "color" : "lime",
+            "image" : "https://i.imgur.com/mlMcNAU.png"
+            
         },
         {
             "id" : 6,
-            "color" : "purple",
-            "image" : "purple.src"
+            "color" : "mint",
+            "image" : "https://i.imgur.com/nI7Ufor.png"
+            
         },
         {
         
             "id" : 7,
-            "color" : "teal",
-            "image" : "teal.src"
+            "color" : "orange",
+            "image" : "https://i.imgur.com/WKjIX4e.png"
+            
         },
         {
         
             "id" : 8,
-            "color" : "darkRed",
-            "image" : "darkRed.src"
+            "color" : "pink",
+            "image" : "https://i.imgur.com/argJOGf.png"
+            
         },
         {
        
             "id" : 9,
-            "color" : "darkGreen",
-            "image" : "darkGreen.src"
+            "color" : "yellow",
+            "image" : "https://i.imgur.com/lkkQ8iK.png"
+            
         },
         {
             "id" : 10,
-            "color" : "tan",
-            "image" : "tan.src"
-        },
-        {
-            "id" : 11,
-            "color" : "darkBlue",
-            "image" : "darkBlue.src"
-        },
-        {
-            "id" : 12,
-            "color" : "skyBlue",
-            "image" : "skyBlue.src"
-        },   
-        {
-            "id" : 13,
-            "color" : "crimson",
-            "image" : "crimson.src"
-        },   
-        {
-            "id" : 14,
-            "color" : "brown",
-            "image" : "brown.src"
-        },    
-        {
-            "id" : 15,
             "color" : "white",
-            "image" : "white.src"
-        }   
+            "image" : "https://i.imgur.com/KUT4Q9t.png"
+        }
+        
     ],
 
     "generalCaps" : [ 
@@ -257,82 +204,59 @@
         
             "id" : 1,
             "color" : "blue",
-            "image" : "blue.src"
+            "image" : "https://i.imgur.com/719mTRC.png"
         },
         {
         
             "id" : 2,
             "color" : "red",
-            "image" : "red.src"
+            "image" : "https://i.imgur.com/MegQm3p.png"
         },
         {
        
             "id" : 3,
-            "color" : "green",
-            "image" : "green.src"
+            "color" : "forest",
+            "image" : "https://i.imgur.com/IzrTLaO.png"
         },
         {
             "id" : 4,
-            "color" : "tan",
-            "image" : "tan.src"
+            "color" : "lightBlue",
+            "image" : "https://i.imgur.com/LZhv5g7.png"
         },
         {
             "id" : 5,
-            "color" : "orange",
-            "image" : "orange.src"
+            "color" : "lime",
+            "image" : "https://i.imgur.com/UfF6jIH.png"
         },
         {
             "id" : 6,
-            "color" : "purple",
-            "image" : "purple.src"
+            "color" : "mint",
+            "image" : "https://i.imgur.com/aIuqznQ.png"
         },
         {
         
             "id" : 7,
-            "color" : "teal",
-            "image" : "teal.src"
+            "color" : "orange",
+            "image" : "https://i.imgur.com/RmJx6l1.png"
         },
         {
         
             "id" : 8,
-            "color" : "darkRed",
-            "image" : "darkRed.src"
+            "color" : "pink",
+            "image" : "https://i.imgur.com/28Ko4ax.png"
         },
         {
        
             "id" : 9,
-            "color" : "darkGreen",
-            "image" : "darkGreen.src"
+            "color" : "yellow",
+            "image" : "https://i.imgur.com/Vnjb9Lt.png"
         },
         {
             "id" : 10,
-            "color" : "tan",
-            "image" : "tan.src"
-        },
-        {
-            "id" : 11,
-            "color" : "darkBlue",
-            "image" : "darkBlue.src"
-        },
-        {
-            "id" : 12,
-            "color" : "skyBlue",
-            "image" : "skyBlue.src"
-        },   
-        {
-            "id" : 13,
-            "color" : "crimson",
-            "image" : "crimson.src"
-        },   
-        {
-            "id" : 14,
-            "color" : "brown",
-            "image" : "brown.src"
-        },    
-        {
-            "id" : 15,
             "color" : "white",
-            "image" : "white.src"
-        }   
+            "image" : "https://i.imgur.com/q6WuPAF.png"
+            
+        }
+           
     ]
 }
