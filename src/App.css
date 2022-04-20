@@ -26,6 +26,43 @@ h4 {
   margin-bottom: .5rem;
 }
 
-.keyboard {
+.form{
+  margin-top: -15em ;
+  
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;  */
+}
 
+.keyboard-image-div{
+  margin-top: -23em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+
+
+#housing{
+z-index: -1;
+position: absolute;
+}
+
+#generalCaps{
+z-index: 0;
+position: absolute;
+}
+
+#highlightCaps{
+z-index: 1;
+position: absolute;
+}
+
+#action-caps{
+z-index: 2;
+position: absolute;
 }

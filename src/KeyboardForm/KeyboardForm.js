@@ -6,15 +6,15 @@ import Housing from './Housing'
 
 export default function KeyboardForm() {
   return (
-    <>
-    <h1>Build Your Board</h1>
-    <GeneralCaps />
+    <div className='form'>
+      <h1>Build Your Board</h1>
+      <GeneralCaps />
       <div></div>
-    <HighlightCaps />
+      <HighlightCaps />
       <div></div>
-    <ActionCaps />
+      <ActionCaps />
       <div></div>
-    <Housing/>
-  </>
+      <Housing/>
+    </div>
   )
 }
