@@ -8,18 +8,19 @@ export default function KeyboardForm({setHousing, setGeneral, setHighlight, setA
 
   return (
     <div className='form'>
-      <h1>Build Your Board</h1>
-      <GeneralCaps setGeneral={setGeneral}/>
-      <div></div>
-      <HighlightCaps setHighlight={setHighlight}/>
-      <div></div>
-      <ActionCaps setAction={setAction}/>
-      <div></div>
-      <Housing setHousing={setHousing}/>
-      <div></div>
-      <input className="input" value="Name" type="text"></input>
-      <div></div>
-      <button className="button" >Save</button>
+      <form>
+        <h1>Build Your Board</h1>
+        <GeneralCaps setGeneral={setGeneral}/>
+        <div></div>
+        <HighlightCaps setHighlight={setHighlight}/>
+        <div></div>
+        <ActionCaps setAction={setAction}/>
+        <div></div>
+        <Housing setHousing={setHousing}/>
+        <div></div>
+
+        <button className="button" >Share Your Build</button>
+      </form>
     </div>
   )
 }

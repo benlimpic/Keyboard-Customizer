@@ -259,5 +259,14 @@
           
       }
 
-  ]
+  ],
+
+  "saved" : [ 
+    {
+        "id" : 1,
+        "color" : "EGYPTIAN BLUE",
+        "image" : "https://i.imgur.com/719mTRC.png"
+    }
+
+]
 }
