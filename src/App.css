@@ -20,13 +20,14 @@ h5 {
 
 nav {
   text-align: center;
-  margin: 2rem 0 0 ;
-  padding: 1rem 0;
+  margin: 2em 0 4em ;
+  /* margin-top: -3em; */
+  padding: 1em 0;
   }
 
 nav a {
   display: inline-block;
-  padding: 1rem 1rem;
+  padding: 1em 1em;
 }
 
 .input {
@@ -87,3 +88,7 @@ position: absolute;
 z-index: 2;
 position: absolute;
 }
+
+/* #displayNav{
+  margin-top: -7em;
+} */

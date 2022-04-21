@@ -9,6 +9,25 @@ export default function KeyboardSwitcher() {
   const [action, setAction] = useState("https://i.imgur.com/syiJdOA.png")
 
 
+  
+  function cb(e){
+    e.preventDefault()
+    
+    const keyBoardCustomizer= {
+      "name": "name",
+      "general": general,
+      "Alternate": action,
+      "Hightlight": highlight,
+      "Case": housing
+    }
+
+
+    fetch("http://localhost:3000/saved", {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(keyBoardCustomizer)
+    })
+  }
   return (
     <>
       <div className='keyboard-image-div'>
@@ -22,6 +41,7 @@ export default function KeyboardSwitcher() {
         setGeneral={setGeneral} 
         setHighlight={setHighlight}
         setAction={setAction}
+        clickHandler={cb}
         />
     </>
   )

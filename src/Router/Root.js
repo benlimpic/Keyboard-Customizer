@@ -8,7 +8,7 @@ import View from "./View"
 const Root = () => {
   return (
     <div>
-        <nav>
+        <nav id="dislplayNav">
             <Link to="/">Home</Link>
             <Link to="/save">Save</Link>
             <Link to="/view">View</Link>
