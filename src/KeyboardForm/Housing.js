@@ -21,9 +21,9 @@ export default function Housing({setHousing}) {
 
   return (
     <div>
-        <h4>Housing</h4>
+        <h5>Case</h5>
         <select className="dropDown" onChange={handleChange}>
-        <option>Select A Color</option>
+        <option>Case Color</option>
             <option>EGYPTIAN BLUE</option>
             <option>VAMPIRE HUNTER</option>
             <option>TOY CAMOUFLAGE</option>

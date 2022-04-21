@@ -21,9 +21,9 @@ export default function GeneralCaps({setGeneral}) {
 
   return (
     <div>
-        <h4>GeneralCaps</h4>
+        <h5>Main</h5>
         <select className="dropDown" onChange={handleChange}>
-        <option>Select A Color</option>
+        <option>Main Color</option>
             <option>EGYPTIAN BLUE</option>
             <option>VAMPIRE HUNTER</option>
             <option>TOY CAMOUFLAGE</option>

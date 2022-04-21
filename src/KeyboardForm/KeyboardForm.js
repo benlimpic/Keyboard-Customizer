@@ -5,6 +5,7 @@ import ActionCaps from './ActionCaps'
 import Housing from './Housing'
 
 export default function KeyboardForm({setHousing, setGeneral, setHighlight, setAction}) {
+
   return (
     <div className='form'>
       <h1>Build Your Board</h1>
@@ -15,6 +16,10 @@ export default function KeyboardForm({setHousing, setGeneral, setHighlight, setA
       <ActionCaps setAction={setAction}/>
       <div></div>
       <Housing setHousing={setHousing}/>
+      <div></div>
+      <input className="input" value="Name" type="text"></input>
+      <div></div>
+      <button className="button" >Save</button>
     </div>
   )
 }

@@ -21,9 +21,9 @@ export default function ActionCaps({setAction}) {
 
   return (
     <div>
-        <h4>ActionCaps</h4>
+        <h5>Highlight</h5>
         <select className="dropDown" onChange={handleChange}>
-            <option>Select A Color</option>
+            <option>Highlight Color</option>
             <option>EGYPTIAN BLUE</option>
             <option>VAMPIRE HUNTER</option>
             <option>TOY CAMOUFLAGE</option>

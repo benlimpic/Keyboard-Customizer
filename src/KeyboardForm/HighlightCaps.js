@@ -22,9 +22,9 @@ export default function HighlightCaps({setHighlight}) {
   return (
     
     <div>
-        <h4>HighlightCaps</h4>
+        <h5>Alternate</h5>
         <select className="dropDown" onChange={handleChange}>
-        <option>Select A Color</option>
+        <option>Alternate Color</option>
             <option>EGYPTIAN BLUE</option>
             <option>VAMPIRE HUNTER</option>
             <option>TOY CAMOUFLAGE</option>
