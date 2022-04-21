@@ -14,7 +14,7 @@ export default function KeyboardSwitcher() {
     e.preventDefault()
     
     const keyBoardCustomizer= {
-      "name": "name",
+      "name": "",
       "general": general,
       "Alternate": action,
       "Hightlight": highlight,
