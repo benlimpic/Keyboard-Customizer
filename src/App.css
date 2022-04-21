@@ -18,6 +18,17 @@ h5 {
   margin-bottom: .1rem;
 }
 
+nav {
+  text-align: center;
+  margin: 20px 0 0 ;
+  padding: 10px 0;
+  }
+
+nav a {
+  display: inline-block;
+  padding: 1rem 1rem;
+}
+
 .input {
   border: 1px solid #333;
   border-radius: .3em;

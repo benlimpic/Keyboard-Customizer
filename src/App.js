@@ -1,11 +1,15 @@
 
 import './App.css';
 import KeyboardSwitcher from './KeyboardSwitcher'
+import {BrowserRouter} from "react-router-dom"
+import Root from "./Router/Root"
+
 function App() {
   return (
-  <div>
+  <BrowserRouter>
+    <Root/>
     <KeyboardSwitcher />
-  </div>
+  </BrowserRouter>
   );
 }
 
