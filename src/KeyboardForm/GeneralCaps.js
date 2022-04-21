@@ -1,10 +1,28 @@
-import React from 'react'
+import {useEffect, useState} from 'react'
 
 export default function GeneralCaps({setGeneral}) {
+
+  const [data, setData] = useState([])
+  const [saveChange, setSaveChange] = useState([])
+
+  useEffect(()=> {
+    fetch("http://localhost:3000/generalCaps")
+    .then(r => r.json())
+    .then(data => setData(data))
+    },[])
+
+  const handleChange = (e) => {
+    setSaveChange(e.target.value);
+  }
+  
+  data.filter(oneData => {
+  if (oneData.color === saveChange) setGeneral(oneData.image)
+  })
+
   return (
     <div>
         <h4>GeneralCaps</h4>
-        <select className="dropDown" onChange={() => setGeneral}>
+        <select className="dropDown" onChange={handleChange}>
         <option>Select A Color</option>
             <option>EGYPTIAN BLUE</option>
             <option>VAMPIRE HUNTER</option>

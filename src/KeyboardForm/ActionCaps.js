@@ -1,36 +1,28 @@
-import {useState, useEffect} from 'react'
+import {useEffect, useState} from 'react'
 
 export default function ActionCaps({setAction}) {
 
+  const [data, setData] = useState([])
+  const [saveChange, setSaveChange] = useState([])
+
   useEffect(()=> {
-    fetch("http://localhost:8000/actionCaps")
+    fetch("http://localhost:3000/actionCaps")
     .then(r => r.json())
-    .then(console.log)
-  },[])
+    .then(data => setData(data))
+    },[])
 
- data => data.filter(oneData => {
-   if(oneData.color === event.target.value) {
-      setAction = oneData.image
-   }
- })
-
-const [value, setValue]= useState(null)
-// console.log({data})
-
-// function getColor(fetchData){
-
-//   fetchData.filter((e) => e.color === {data}) ? {data} : null
-// if( fetchData.filter((e) => e.color === {data}) === {data})
-// console.log({data})
-
-// else
-// console.log("failed")
-// }
+  const handleChange = (e) => {
+    setSaveChange(e.target.value);
+  }
+  
+  data.filter(oneData => {
+  if (oneData.color === saveChange) setAction(oneData.image)
+  })
 
   return (
     <div>
         <h4>ActionCaps</h4>
-        <select className="dropDown" onChange={(e) => setValue(e.target.value)}>
+        <select className="dropDown" onChange={handleChange}>
             <option>Select A Color</option>
             <option>EGYPTIAN BLUE</option>
             <option>VAMPIRE HUNTER</option>
@@ -47,3 +39,24 @@ const [value, setValue]= useState(null)
     </div>
   )
 }
+
+
+//  data => data.filter(oneData => {
+//    if(oneData.color === event.target.value) {
+//       setAction = oneData.image
+//    }
+//  })
+
+// const [value, setValue]= useState(null)
+// console.log({data})
+
+// function getColor(fetchData){
+
+//   fetchData.filter((e) => e.color === {data}) ? {data} : null
+// if( fetchData.filter((e) => e.color === {data}) === {data})
+// console.log({data})
+
+// else
+// console.log("failed")
+// }
+// onChange={(e) => setValue(e.target.value)}

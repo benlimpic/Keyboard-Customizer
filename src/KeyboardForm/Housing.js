@@ -1,10 +1,28 @@
-import React from 'react'
+import {useEffect, useState} from 'react'
 
-export default function Housing({setAction}) {
+export default function Housing({setHousing}) {
+
+  const [data, setData] = useState([])
+  const [saveChange, setSaveChange] = useState([])
+
+  useEffect(()=> {
+    fetch("http://localhost:3000/housing")
+    .then(r => r.json())
+    .then(data => setData(data))
+    },[])
+
+  const handleChange = (e) => {
+    setSaveChange(e.target.value);
+  }
+  
+  data.filter(oneData => {
+  if (oneData.color === saveChange) setHousing(oneData.image)
+  })
+
   return (
     <div>
         <h4>Housing</h4>
-        <select className="dropDown" onChange={() => setAction}>
+        <select className="dropDown" onChange={handleChange}>
         <option>Select A Color</option>
             <option>EGYPTIAN BLUE</option>
             <option>VAMPIRE HUNTER</option>
