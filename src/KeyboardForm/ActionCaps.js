@@ -1,10 +1,36 @@
-import React from 'react'
+import {useState, useEffect} from 'react'
 
-export default function ActionCaps() {
+export default function ActionCaps({setAction}) {
+
+  useEffect(()=> {
+    fetch("http://localhost:8000/actionCaps")
+    .then(r => r.json())
+    .then(console.log)
+  },[])
+
+ data => data.filter(oneData => {
+   if(oneData.color === event.target.value) {
+      setAction = oneData.image
+   }
+ })
+
+const [value, setValue]= useState(null)
+// console.log({data})
+
+// function getColor(fetchData){
+
+//   fetchData.filter((e) => e.color === {data}) ? {data} : null
+// if( fetchData.filter((e) => e.color === {data}) === {data})
+// console.log({data})
+
+// else
+// console.log("failed")
+// }
+
   return (
     <div>
         <h4>ActionCaps</h4>
-        <select className="dropDown">
+        <select className="dropDown" onChange={(e) => setValue(e.target.value)}>
             <option>Select A Color</option>
             <option>EGYPTIAN BLUE</option>
             <option>VAMPIRE HUNTER</option>

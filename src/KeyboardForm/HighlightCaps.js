@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function HighlightCaps() {
+export default function HighlightCaps({setHighlight}) {
   return (
     
     <div>
         <h4>HighlightCaps</h4>
-        <select className="dropDown">
+        <select className="dropDown" onChange={() => setHighlight}>
         <option>Select A Color</option>
             <option>EGYPTIAN BLUE</option>
             <option>VAMPIRE HUNTER</option>
