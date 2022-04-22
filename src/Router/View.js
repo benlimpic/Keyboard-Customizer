@@ -4,7 +4,7 @@ function View() {
   return (
     <>
     <HallOfBoards/>
-    <div>View</div>
+    
     </>
   )
 }
