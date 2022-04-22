@@ -20,7 +20,7 @@ function KeyboardForm({setHousing, setGeneral, setHighlight, setAction, clickHan
         <Housing setHousing={setHousing}/>
         <div></div>
 
-        <button className="button" onClick={clickHandler}>Share Your Build</button>
+        <button className="button" onClick={clickHandler}>Save Build</button>
       </form>
     </div>
   )

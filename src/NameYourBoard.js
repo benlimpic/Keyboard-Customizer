@@ -26,7 +26,7 @@ const handleName = (e) => {
         <h5>Name</h5>
         <form onSubmit={ handlePatch}>
         <input className="input"  type="text" onChange={handleName}></input>
-        <button id='Name-save' >Save</button>
+        <button id='Name-save' >Name Board</button>
         </form>
       </div>
         
