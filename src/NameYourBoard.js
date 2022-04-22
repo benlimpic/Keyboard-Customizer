@@ -21,8 +21,8 @@ const handleName = (e) => {
 
   return (
       <>
-      <div>
       <h1>Name Your Board</h1>
+      <div className="nameForm">
         <h5>Name</h5>
         <form onSubmit={ handlePatch}>
         <input className="input"  type="text" onChange={handleName}></input>

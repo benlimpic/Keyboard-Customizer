@@ -13,7 +13,7 @@ function Name({ housing, general, highlight, action, lastId}) {
         highlight={highlight}
         general={general}/>
       </div>
-      <div className="nameForm">
+      <div>
         <NameYourBoard 
         lastId={lastId}/>
       </div>
