@@ -55,6 +55,10 @@ function cb(e){
                     setAction={setAction}
                     clickHandler={cb}/>} exact path="/" />
                   <Route element={<Name 
+                    housing={housing} 
+                    action={action} 
+                    general={general} 
+                    highlight={highlight}
                     setHousing={setHousing}
                     setGeneral={setGeneral} 
                     setHighlight={setHighlight}

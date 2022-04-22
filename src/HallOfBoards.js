@@ -24,16 +24,8 @@ useEffect(() => {
   
   return (
     <>
-    <h1>Hall of Boards</h1>
-    {boardComponent}
+      <h1>Hall of Boards</h1>
+      {boardComponent}
     </>
   )
 }
-
-
-{/* <div className='keyboard-image-div'>
-            <img id="action-caps" className="keyboard" src={action} alt="Action Caps"/>
-            <img id="housing" className="keyboard" src={housing} alt="Mech Housing"/>
-            <img id="generalCaps" className="keyboard" src={general} alt="Action Caps"/>
-            <img id="highlightCaps" className="keyboard" src={highlight} alt="Mech Housing"/>
-        </div> */}

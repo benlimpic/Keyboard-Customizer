@@ -5,15 +5,22 @@ import NameYourBoard from "../NameYourBoard"
 function Name({ housing, general, highlight, action, lastId}) {
   return (
     <>
-    {/* <KeyboardImage 
-      housing={housing} 
-      action={action} 
-      general={general} 
-      highlight={highlight} */}
-    {/* /> */}
-    <NameYourBoard 
-    lastId={lastId}/>
+    <div className="name">
+      <div className="boardContainer">
+        <KeyboardImage 
+        housing={housing}
+        action={action}
+        highlight={highlight}
+        general={general}/>
+      </div>
+      <div className="nameForm">
+        <NameYourBoard 
+        lastId={lastId}/>
+      </div>
+    </div>
+    
     </>
+    
     
   )
 }

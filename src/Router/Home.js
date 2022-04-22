@@ -7,19 +7,24 @@ import KeyboardForm from '../KeyboardForm/KeyboardForm'
   console.log("hello world")
   return (
     <>
-    <div>
-      <KeyboardImage 
-      housing={housing}
-      action={action}
-      highlight={highlight}
-      general={general}/>
-      <KeyboardForm 
-      setHousing={setHousing}
-      setGeneral={setGeneral} 
-      setHighlight={setHighlight}
-      setAction={setAction}
-      clickHandler={clickHandler}/>
-    </div>
+      <div className="home">
+        <div className="boardContainer">
+          <KeyboardImage 
+          housing={housing}
+          action={action}
+          highlight={highlight}
+          general={general}/>
+        </div>
+        <div>
+          <KeyboardForm 
+          setHousing={setHousing}
+          setGeneral={setGeneral} 
+          setHighlight={setHighlight}
+          setAction={setAction}
+          clickHandler={clickHandler}/>
+        </div>
+      </div>
+      
     </>
     
   )

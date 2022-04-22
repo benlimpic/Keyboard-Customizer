@@ -2,14 +2,18 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 100vh;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: -2rem;
 }
 
 h5 {
@@ -19,15 +23,43 @@ h5 {
 }
 
 nav {
+  align-items: top;
   text-align: center;
-  margin: 2em 0 4em ;
-  /* margin-top: -3em; */
-  padding: 1em 0;
+  margin: 2em 0 7em ;
   }
 
 nav a {
-  display: inline-block;
+  display: inline-flexbox;
   padding: 1em 1em;
+}
+
+.boardContainer {
+  display: flex;
+  margin-top: -2em;
+  margin-bottom: 0em;
+  justify-content: center;
+  align-items: top;
+  min-height: 20vh;
+  text-align: center;
+}
+.home{
+  display: grid;
+  margin-top: -3em;
+  margin-bottom: 6em;
+  min-height: 40vh;
+}
+
+.name{
+  display: grid;
+  margin-top: -3em;
+  margin-bottom: 6em;
+}
+
+.hallOfBoards{
+  display: grid;
+  margin-top: -3em;
+  margin-bottom: 3em;
+
 }
 
 .input {
@@ -47,14 +79,6 @@ nav a {
   margin-top: .85rem;
 }
 
-#Name-save {
-  border: 1px solid #333;
-  border-radius: .2em;
-  padding: .25rem;
-  width: 3em;
-  margin-top: .85rem;
-}
-
 .dropDown {
   border: 1px solid #333;
   border-radius: .3em;
@@ -64,39 +88,35 @@ nav a {
 }
 
 .form{
-  margin-top: -15em ;
-
+  margin-top: -11rem ;
 }
 
-.keyboard-image-div{
-  margin-top: -23em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  text-align: center;
+.nameForm{
+  margin-top: -11rem ;
 }
 
-#housing{
-z-index: -1;
-position: absolute;
+#Name-save {
+  border: 1px solid #333;
+  border-radius: .2em;
+  padding: .25rem;
+  width: 3em;
+  margin-top: .85rem;
 }
+
+.boardBox{}
 
 #generalCaps{
-z-index: 0;
 position: absolute;
 }
 
 #highlightCaps{
-z-index: 1;
 position: absolute;
 }
 
 #action-caps{
-z-index: 2;
 position: absolute;
 }
 
-/* #displayNav{
-  margin-top: -7em;
-} */
+#housing{
+  position: absolute;
+  }
