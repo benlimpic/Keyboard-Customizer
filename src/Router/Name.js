@@ -2,7 +2,7 @@ import React from 'react'
 import KeyboardImage from "../KeyboardImage"
 import NameYourBoard from "../NameYourBoard"
 
-function Name({ housing, general, highlight, action }) {
+function Name({ housing, general, highlight, action, lastId}) {
   return (
     <>
     {/* <KeyboardImage 
@@ -11,7 +11,8 @@ function Name({ housing, general, highlight, action }) {
       general={general} 
       highlight={highlight} */}
     {/* /> */}
-    <NameYourBoard />
+    <NameYourBoard 
+    lastId={lastId}/>
     </>
     
   )

@@ -241,12 +241,68 @@
       "id": 4
     },
     {
-      "name": "asdf",
+      "name": "holy cow",
       "general": "https://i.imgur.com/719mTRC.png",
       "Alternate": "https://i.imgur.com/UgbZztE.png",
       "Hightlight": "https://i.imgur.com/mlMcNAU.png",
       "Case": "https://i.imgur.com/z9GnFkQ.png",
       "id": 5
+    },
+    {
+      "name": "Darbys Revenge",
+      "general": "https://i.imgur.com/28Ko4ax.png",
+      "Alternate": "https://i.imgur.com/fdDyn94.png",
+      "Hightlight": "https://i.imgur.com/lkkQ8iK.png",
+      "Case": "https://i.imgur.com/Ow9hmn2.png",
+      "id": 6
+    },
+    {
+      "name": "Burger",
+      "general": "https://i.imgur.com/RmJx6l1.png",
+      "Alternate": "https://i.imgur.com/ckEF0wQ.png",
+      "Hightlight": "https://i.imgur.com/pPlTtsa.png",
+      "Case": "https://i.imgur.com/h1Ob4cy.png",
+      "id": 7
+    },
+    {
+      "name": "",
+      "general": "https://i.imgur.com/719mTRC.png",
+      "Alternate": "https://i.imgur.com/fdDyn94.png",
+      "Hightlight": "https://i.imgur.com/argJOGf.png",
+      "Case": "https://i.imgur.com/Ow9hmn2.png",
+      "id": 8
+    },
+    {
+      "name": "",
+      "general": "https://i.imgur.com/q6WuPAF.png",
+      "Alternate": "https://i.imgur.com/syiJdOA.png",
+      "Hightlight": "https://i.imgur.com/KUT4Q9t.png",
+      "Case": "https://i.imgur.com/Ow9hmn2.png",
+      "id": 9
+    },
+    {
+      "name": "",
+      "general": "https://i.imgur.com/q6WuPAF.png",
+      "Alternate": "https://i.imgur.com/syiJdOA.png",
+      "Hightlight": "https://i.imgur.com/KUT4Q9t.png",
+      "Case": "https://i.imgur.com/Ow9hmn2.png",
+      "id": 10
+    },
+    {
+      "name": "",
+      "general": "https://i.imgur.com/q6WuPAF.png",
+      "Alternate": "https://i.imgur.com/syiJdOA.png",
+      "Hightlight": "https://i.imgur.com/KUT4Q9t.png",
+      "Case": "https://i.imgur.com/Ow9hmn2.png",
+      "id": 11
+    },
+    {
+      "name": "asdf",
+      "general": "https://i.imgur.com/q6WuPAF.png",
+      "Alternate": "https://i.imgur.com/syiJdOA.png",
+      "Hightlight": "https://i.imgur.com/KUT4Q9t.png",
+      "Case": "https://i.imgur.com/Ow9hmn2.png",
+      "id": 12
     }
   ]
 }

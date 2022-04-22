@@ -15,6 +15,7 @@ const [housing, setHousing] = useState("https://i.imgur.com/Ow9hmn2.png")
 const [general, setGeneral] = useState("https://i.imgur.com/q6WuPAF.png")
 const [highlight, setHighlight] = useState("https://i.imgur.com/KUT4Q9t.png")
 const [action, setAction] = useState("https://i.imgur.com/syiJdOA.png")
+const [lastId, setLastId] = useState(0)
 
 function cb(e){
   e.preventDefault()
@@ -31,7 +32,10 @@ function cb(e){
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(keyBoardCustomizer)
+
   })
+  .then(r => r.json())
+  .then(setLastId)
 
 } 
 
@@ -61,6 +65,7 @@ function cb(e){
                     setGeneral={setGeneral} 
                     setHighlight={setHighlight}
                     setAction={setAction}
+                    lastId={lastId}
                     />} exact path="/Name" />
                   <Route element={<View/>} exact path="/View" />
                 </Routes>

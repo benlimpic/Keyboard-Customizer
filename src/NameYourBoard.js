@@ -1,26 +1,24 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
-export default function NameYourBoard() {
+export default function NameYourBoard({lastId}) {
 const [name, setName] = useState("")
-const [getId, setGetId] = useState(0)
 const handleName = (e) => {
   e.preventDefault()
   setName(e.target.value)
 }
 
-const handlePatch = (e) => {
+
+
+  const handlePatch = (e) => {
   e.preventDefault()
   e.target.reset()
 
-  fetch("http://localhost:3000/saved")
-  .then(r => r.json())
-  .then(setGetId)
+  console.log(lastId)
 
-  const arrayLength = getId.length
+  // const arrayLength = lastId.length
+  // console.log(lastId.length)
 
-  console.log(arrayLength)
-
-  fetch(`http://localhost:3000/saved/${arrayLength}`, {
+  fetch(`http://localhost:3000/saved/${lastId.id}`, {
     method: 'PATCH',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({"name": name})
@@ -34,7 +32,7 @@ const handlePatch = (e) => {
       <>
         <h1>Name Your Board</h1>
         <h5>Name</h5>
-        <form onSubmit={handlePatch}>
+        <form onSubmit={ handlePatch}>
         <input className="input"  type="text" onChange={handleName}></input>
         <button id='Name-save' >Save</button>
         </form>
