@@ -47,6 +47,14 @@ nav a {
   margin-top: .85rem;
 }
 
+#Name-save {
+  border: 1px solid #333;
+  border-radius: .2em;
+  padding: .25rem;
+  width: 3em;
+  margin-top: .85rem;
+}
+
 .dropDown {
   border: 1px solid #333;
   border-radius: .3em;

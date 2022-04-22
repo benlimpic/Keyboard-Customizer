@@ -1,25 +1,32 @@
 
 import './App.css';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
+import { useState } from 'react'
  
 import Home from "./Router/Home"
-import Save from "./Router/Save"
+import Name from "./Router/Name"
 import View from "./Router/View"
  
 const App = () => {
+
+const [housing, setHousing] = useState("https://i.imgur.com/Ow9hmn2.png")
+const [general, setGeneral] = useState("https://i.imgur.com/q6WuPAF.png")
+const [highlight, setHighlight] = useState("https://i.imgur.com/KUT4Q9t.png")
+const [action, setAction] = useState("https://i.imgur.com/syiJdOA.png")
+
   
     return (      
        <BrowserRouter>
         <div>
             <nav id="dislplayNav">
                 <Link to="/">Home</Link>
-                <Link to="/save">Save</Link>
+                <Link to="/name">Name</Link>
                 <Link to="/view">View</Link>
             </nav>
                 <Routes>
                   <Route element={<Home/>} exact path="/" />
-                  <Route element={<Save/>} exact path="/save" />
-                  <Route element={<View/>} exact path="/view" />
+                  <Route element={<Name/>} exact path="/Name" />
+                  <Route element={<View/>} exact path="/View" />
                 </Routes>
          </div> 
        </BrowserRouter>

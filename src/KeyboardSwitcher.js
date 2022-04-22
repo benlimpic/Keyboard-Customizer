@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import KeyboardForm from './KeyboardForm/KeyboardForm'
+import KeyboardImage from './KeyboardImage'
 
 export default function KeyboardSwitcher() {
 
@@ -30,12 +31,12 @@ export default function KeyboardSwitcher() {
   }
   return (
     <>
-      <div className='keyboard-image-div'>
-        <img id="action-caps" className="keyboard" src={action} alt="Action Caps"/>
-        <img id="housing" className="keyboard" src={housing} alt="Mech Housing"/>
-        <img id="generalCaps" className="keyboard" src={general} alt="Action Caps"/>
-        <img id="highlightCaps" className="keyboard" src={highlight} alt="Mech Housing"/>
-      </div>
+        <KeyboardImage 
+        housing={housing} 
+        general={general} 
+        action={action} 
+        highlight={highlight} />
+      
         <KeyboardForm 
         setHousing={setHousing}
         setGeneral={setGeneral} 
