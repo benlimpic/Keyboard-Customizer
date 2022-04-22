@@ -1,7 +1,11 @@
 import React from 'react'
-
-export default function View() {
+import HallOfBoards from '../HallOfBoards'
+function View() {
   return (
+    <>
+    <HallOfBoards/>
     <div>View</div>
+    </>
   )
 }
+export default View

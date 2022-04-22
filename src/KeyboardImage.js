@@ -3,7 +3,6 @@ import React from 'react'
 export default function KeyboardImage({ action, housing, general, highlight }) {
   return (
     <>
-        <div>KeyboardImage</div>
         <div className='keyboard-image-div'>
             <img id="action-caps" className="keyboard" src={action} alt="Action Caps"/>
             <img id="housing" className="keyboard" src={housing} alt="Mech Housing"/>
@@ -14,3 +13,4 @@ export default function KeyboardImage({ action, housing, general, highlight }) {
     
   )
 }
+  

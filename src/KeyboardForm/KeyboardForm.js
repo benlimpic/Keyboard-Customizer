@@ -4,7 +4,7 @@ import HighlightCaps from './HighlightCaps'
 import ActionCaps from './ActionCaps'
 import Housing from './Housing'
 
-export default function KeyboardForm({setHousing, setGeneral, setHighlight, setAction, clickHandler}) {
+function KeyboardForm({setHousing, setGeneral, setHighlight, setAction, clickHandler}) {
 
   return (
     <div className='form'>
@@ -25,3 +25,4 @@ export default function KeyboardForm({setHousing, setGeneral, setHighlight, setA
   )
 }
 
+export default KeyboardForm
