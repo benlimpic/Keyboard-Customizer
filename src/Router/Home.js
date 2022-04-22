@@ -3,7 +3,7 @@ import React from 'react'
 import KeyboardImage from "../KeyboardImage"
 import KeyboardForm from '../KeyboardForm/KeyboardForm'
 
- function Home({ cb, housing, action, highlight, general, setHousing, setAction, setHighlight, setGeneral }) {
+ function Home({ clickHandler, housing, action, highlight, general, setHousing, setAction, setHighlight, setGeneral }) {
   console.log("hello world")
   return (
     <>
@@ -18,7 +18,7 @@ import KeyboardForm from '../KeyboardForm/KeyboardForm'
       setGeneral={setGeneral} 
       setHighlight={setHighlight}
       setAction={setAction}
-      clickHandler={cb}/>
+      clickHandler={clickHandler}/>
     </div>
     </>
     

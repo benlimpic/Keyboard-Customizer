@@ -9,6 +9,7 @@ import View from "./Router/View"
 
 
 
+
 const App = () => {
 const [housing, setHousing] = useState("https://i.imgur.com/Ow9hmn2.png")
 const [general, setGeneral] = useState("https://i.imgur.com/q6WuPAF.png")
@@ -31,9 +32,11 @@ function cb(e){
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(keyBoardCustomizer)
   })
-}
 
- 
+} 
+
+
+
     return (      
        <BrowserRouter>
         <div>
@@ -47,13 +50,18 @@ function cb(e){
                     housing={housing} 
                     action={action} 
                     general={general} 
-                    highlight={highlight}/>} exact path="/" />
+                    highlight={highlight}
+                    setHousing={setHousing}
+                    setGeneral={setGeneral} 
+                    setHighlight={setHighlight}
+                    setAction={setAction}
+                    clickHandler={cb}/>} exact path="/" />
                   <Route element={<Name 
                     setHousing={setHousing}
                     setGeneral={setGeneral} 
                     setHighlight={setHighlight}
                     setAction={setAction}
-                    clickHandler={cb}/>} exact path="/Name" />
+                    />} exact path="/Name" />
                   <Route element={<View/>} exact path="/View" />
                 </Routes>
          </div> 

@@ -15,9 +15,14 @@ export default function GeneralCaps({setGeneral}) {
     setSaveChange(e.target.value);
   }
   
-  data.filter(oneData => {
-  if (oneData.color === saveChange) setGeneral(oneData.image)
+data.filter(oneData => {
+  if (oneData.color === saveChange)  return setGeneral(oneData.image)
   })
+
+ 
+
+ 
+ 
 
   return (
     <div>
