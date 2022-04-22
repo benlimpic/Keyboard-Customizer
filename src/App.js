@@ -40,11 +40,12 @@ function cb(e){
     return (      
        <BrowserRouter>
         <div>
-            <nav id="dislplayNav">
-                <Link to="/">Home</Link>
-                <Link to="/name">Name</Link>
-                <Link to="/view">View</Link>
+            <nav>
+                <Link to="/">Build Your Board</Link>
+                <Link to="/name">Name Your Board</Link>
+                <Link to="/view">Hall of Boards</Link>
             </nav>
+
                 <Routes>
                   <Route element={<Home 
                     housing={housing} 

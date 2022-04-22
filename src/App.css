@@ -8,7 +8,7 @@ body {
 
 h1 {
   margin: 0;
-  margin-bottom: 3rem;
+  margin-bottom: rem;
 }
 
 h2 {
@@ -23,14 +23,15 @@ h5 {
 }
 
 nav {
+
   align-items: top;
   text-align: center;
   margin: 2em 0 7em ;
   }
 
 nav a {
-  display: inline-flex;
-  padding: 1em 1em;
+  display: top;
+  padding: 1em 1em 1em 1em;
 }
 
 .boardContainer {
@@ -40,7 +41,6 @@ nav a {
   align-items: top;
   height: 309px;
   width: 696px;
-  min-height: ;
   justify-content: center;
   text-align: center;
   position: relative;
@@ -48,24 +48,23 @@ nav a {
 .home{
   display: grid;
   position: relative;
-  grid-gap: 5em;
+  grid-gap: 4em;
   margin-top: -3em;
   margin-bottom: 6em;
-  min-height: 40vh;
 }
 
 .name{
   display: grid;
-  grid-gap: 5em;
+  grid-gap: 4em;
   margin-top: -3em;
   margin-bottom: 6em;
 }
 
 .hallOfBoards{
   display: grid;
-  grid-gap: 5em;
+  grid-gap: 2em;
   margin-top: -3em;
-  margin-bottom: 3em;
+  margin-bottom: 6em;
 }
 
 .input {
@@ -94,11 +93,11 @@ nav a {
 }
 
 .form{
-  margin-top: -1rem ;
+  margin-top: -5rem ;
 }
 
 .nameForm{
-  margin-top: -1rem ;
+  margin-top: -5rem ;
 }
 
 #Name-save {

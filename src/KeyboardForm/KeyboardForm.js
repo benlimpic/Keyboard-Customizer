@@ -4,8 +4,9 @@ import HighlightCaps from './HighlightCaps'
 import ActionCaps from './ActionCaps'
 import Housing from './Housing'
 
-function KeyboardForm({setHousing, setGeneral, setHighlight, setAction, clickHandler}) {
 
+function KeyboardForm({setHousing, setGeneral, setHighlight, setAction, clickHandler}) {
+  
   return (
     <div className='form'>
       <form>
@@ -19,7 +20,7 @@ function KeyboardForm({setHousing, setGeneral, setHighlight, setAction, clickHan
         <Housing setHousing={setHousing}/>
         <div></div>
 
-        <button className="button" onClick={clickHandler} src="http://localhost:3001/name">Share Your Build</button>
+        <button className="button" onClick={clickHandler}>Share Your Build</button>
       </form>
     </div>
   )
