@@ -13,6 +13,7 @@ useEffect(() => {
   
   const boardComponent = data.map(singleBoard => {
     return <Board 
+    Name={singleBoard.name}
     Id={singleBoard.id}
     Alternate={singleBoard.Alternate} 
     Case={singleBoard.Case} 

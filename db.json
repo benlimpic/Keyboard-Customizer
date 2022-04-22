@@ -311,6 +311,22 @@
       "Hightlight": "https://i.imgur.com/pPlTtsa.png",
       "Case": "https://i.imgur.com/sDQLSKJ.png",
       "id": 13
+    },
+    {
+      "name": "Megazord",
+      "general": "https://i.imgur.com/q6WuPAF.png",
+      "Alternate": "https://i.imgur.com/syiJdOA.png",
+      "Hightlight": "https://i.imgur.com/SjxX0aU.png",
+      "Case": "https://i.imgur.com/HVRyPs3.png",
+      "id": 14
+    },
+    {
+      "name": "interesting",
+      "general": "https://i.imgur.com/IzrTLaO.png",
+      "Alternate": "https://i.imgur.com/UgbZztE.png",
+      "Hightlight": "https://i.imgur.com/pPlTtsa.png",
+      "Case": "https://i.imgur.com/Ow9hmn2.png",
+      "id": 15
     }
   ]
 }

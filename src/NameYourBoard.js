@@ -2,6 +2,7 @@ import {useState} from 'react'
 
 export default function NameYourBoard({lastId}) {
 const [name, setName] = useState("")
+
 const handleName = (e) => {
   e.preventDefault()
   setName(e.target.value)
