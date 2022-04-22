@@ -7,9 +7,6 @@ import Home from "./Router/Home"
 import Name from "./Router/Name"
 import View from "./Router/View"
 
-
-
-
 const App = () => {
 const [housing, setHousing] = useState("https://i.imgur.com/Ow9hmn2.png")
 const [general, setGeneral] = useState("https://i.imgur.com/q6WuPAF.png")
@@ -36,10 +33,7 @@ function cb(e){
   })
   .then(r => r.json())
   .then(setLastId)
-
 } 
-
-
 
     return (      
        <BrowserRouter>

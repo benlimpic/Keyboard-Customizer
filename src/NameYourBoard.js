@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 
 export default function NameYourBoard({lastId}) {
 const [name, setName] = useState("")
@@ -7,25 +7,15 @@ const handleName = (e) => {
   setName(e.target.value)
 }
 
-
-
   const handlePatch = (e) => {
   e.preventDefault()
   e.target.reset()
-
-  console.log(lastId)
-
-  // const arrayLength = lastId.length
-  // console.log(lastId.length)
 
   fetch(`http://localhost:3000/saved/${lastId.id}`, {
     method: 'PATCH',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({"name": name})
   })
-
-
-
 }
 
   return (
