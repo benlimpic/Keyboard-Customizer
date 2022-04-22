@@ -1,5 +1,4 @@
 import React from 'react'
-// import KeyboardSwitcher from "../KeyboardSwitcher"
 import KeyboardImage from "../KeyboardImage"
 import KeyboardForm from '../KeyboardForm/KeyboardForm'
 
@@ -15,7 +14,7 @@ import KeyboardForm from '../KeyboardForm/KeyboardForm'
           highlight={highlight}
           general={general}/>
         </div>
-        <div>
+        <div >
           <KeyboardForm 
           setHousing={setHousing}
           setGeneral={setGeneral} 
